@@ -14,18 +14,86 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app" class="flex flex-col justify-between w-full min-h-screen">
-      <header class="">
-        <div class="flex justify-around">
-          <div>Home</div>
+    <div id="app">
+      <header>
+        <div class="flex justify-around text-white bg-[#2f2f2f]">
+          <a href="">Home</a>
           <div>
             <button><i class="fa-solid fa-sun"></i></button>
             <button class="hidden"><i class="fa-solid fa-moon"></i></button>
           </div>
         </div>
+        <div class="text-center text-5xl my-2">
+          <b>VIXBOL</b>
+        </div>
       </header>
-      <main>Main</main>
-      <footer>Footer</footer>
+      <main>
+        <!-- call api youtubte -->
+        <div class="w-4/5 m-auto text-2xl">
+          <div class="flex justify-around">
+            <a href="">Home</a>
+            <a href="">Projects</a>
+            <a href="">Get'Go Game</a>
+            <a href="">Contacts</a>
+            <a href="myCv.html" target="_blank">CV</a>
+          </div>
+          <div class="flex flex-col text-center gap-4 p-6 bg-slate-300 text-xl">
+            <div class="flex flex-col items-center gap-4">
+              <img
+                class="w-40 rounded-full"
+                src="https://i.pinimg.com/564x/4a/4c/29/4a4c29807499a1a8085e9bde536a570a.jpg"
+                alt=""
+              />
+              <div>Name not found</div>
+            </div>
+            <div class="flex justify-around">
+              <div>
+                <p>Subcriers</p>
+                <b>0</b>
+              </div>
+              <div>
+                <p>Create At</p>
+                <b>0</b>
+              </div>
+              <div>
+                <p>Videos</p>
+                <b>0</b>
+              </div>
+              <div>
+                <p>Views</p>
+                <b>0</b>
+              </div>
+            </div>
+            <form action="" class="flex justify-between">
+              <input
+                type="text"
+                name="url"
+                placeholder="Enter url"
+                id="url"
+                class="w-4/5 px-5 py-4 bg-[#2f2f2f] rounded-xl text-white"
+              />
+              <input
+                type="submit"
+                name="submit"
+                value="Run"
+                id="get"
+                class="w-1/6 px-5 py-4 bg-[#2f2f2f] rounded-xl text-[#fff] ml-5"
+              />
+            </form>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="text-center text-white bg-[#2f2f2f]">
+          <p>
+            Copyrights © 2022 |<a
+              href="https://www.facebook.com/vixbol/"
+              target="_blank"
+              >Vixbol</a
+            >
+          </p>
+        </div>
+      </footer>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
