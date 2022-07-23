@@ -9,3 +9,15 @@
         box-sizing: boder-box;
     }
 }
+
+@layer utilities {
+    @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    
+        .animate-spin {
+            animation: spin 20s linear infinite;
+        }
+}
