@@ -11,7 +11,7 @@
 }
 
 @layer utilities {
-    .animate-spin {
+    .animate-spin-20s {
         animation: spin 20s linear infinite;
     }
 }
