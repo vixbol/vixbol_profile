@@ -15,85 +15,75 @@
   </head>
   <body>
     <div id="app">
-      <header>
-        <div class="flex justify-around text-white bg-[#2f2f2f]">
-          <a href="">Home</a>
-          <div>
-            <button><i class="fa-solid fa-sun"></i></button>
-            <button class="hidden"><i class="fa-solid fa-moon"></i></button>
+      <div class="bg-[#2F2F2F] text-white px-4">
+        <header>
+          <div
+            class="flex items-center max-w-7xl m-auto justify-between py-8 mb-10"
+          >
+            <img class="w-60" src="./img/vixbol_logo_A0B8E0.png" alt="" />
           </div>
-        </div>
-        <div class="text-center text-5xl my-2">
-          <b>VIXBOL</b>
-        </div>
-      </header>
-      <main>
-        <!-- call api youtubte -->
-        <div class="w-4/5 m-auto text-2xl">
-          <div class="flex justify-around">
-            <a href="">Home</a>
-            <a href="">Projects</a>
-            <a href="">Get'Go Game</a>
-            <a href="">Contacts</a>
-            <a href="myCv.html" target="_blank">CV</a>
-          </div>
-          <div class="flex flex-col text-center gap-4 p-6 bg-slate-300 text-xl">
-            <div class="flex flex-col items-center gap-4">
-              <img
-                class="w-40 rounded-full"
-                src="https://i.pinimg.com/564x/4a/4c/29/4a4c29807499a1a8085e9bde536a570a.jpg"
-                alt=""
-              />
-              <div>Name not found</div>
+        </header>
+        <main>
+          <div class="max-w-7xl m-auto sm:pt-20">
+            <div class="grid grid-cols-2">
+              <div>
+                <h1 class="font-bold text-4xl sm:text-6xl mb-10">
+                  Chào bạn, mình là
+                  <p
+                    class="inline-block bg-gradient-to-r from-[#2F2F2F] to-[#A0B8E0] text-[#FFCE54]"
+                  >
+                    Vixbol
+                  </p>
+                </h1>
+                <p class="max-w-[500px]">
+                  Mình hiện tại là Frontend Developer với hơn 3 tháng kinh
+                  nghiệm. Ngoài việc đi học thì mình còn làm streamer, chia sẻ
+                  kiến thức tại Youtube và Tiktok cùng với brand là Vixbol.
+                </p>
+                <br />
+                <p class="max-w-[500px] mb-10">
+                  Đi kèm với việc chia sẻ thì mình cũng có kinh doanh các dịch
+                  vụ mạng xã hội , nhằm mục đích giúp đỡ khách hàng phát triển
+                  doanh thu cửa hàng, bán hàng hiệu quả nhất. Nếu bạn muốn phát
+                  triển doanh thu cửa hàng thì đừng ngại mà hãy liên hệ mình
+                  bằng đường link dưới nhé!
+                </p>
+                <div class="flex gap-5">
+                  <div
+                    class="border-2 border-[#A0B8E0] rounded-lg px-3 py-2 text-[#FFCE54] hover:bg-[#A0B8E0] hover:text-[#2F2F2F]"
+                  >
+                    <a href="https://www.facebook.com/vixbol/" target="_blank"
+                      >Liên hệ mình</a
+                    >
+                  </div>
+                  <div
+                    class="border-2 border-[#A0B8E0] rounded-lg px-3 py-2 text-[#FFCE54] hover:bg-[#A0B8E0] hover:text-[#2F2F2F]"
+                  >
+                    Liên hệ khác
+                  </div>
+                </div>
+              </div>
+              <div>
+                <img
+                  class="w-[500px] rounded-3xl m-auto"
+                  src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.6435-9/155165681_1358851514474980_3456990078487189618_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_ohc=MBUQ-yVCOwEAX-yXkcG&_nc_ht=scontent.fdad2-1.fna&oh=00_AT_UAXkadEoQhuYoKMloeQPS5L4cm0mAwCHjr2vX86gDWQ&oe=62FEF23E"
+                  alt=""
+                />
+              </div>
             </div>
-            <div class="flex justify-around">
-              <div>
-                <p>Subcriers</p>
-                <b>0</b>
-              </div>
-              <div>
-                <p>Create At</p>
-                <b>0</b>
-              </div>
-              <div>
-                <p>Videos</p>
-                <b>0</b>
-              </div>
-              <div>
-                <p>Views</p>
-                <b>0</b>
-              </div>
-            </div>
-            <form action="" class="flex justify-between">
-              <input
-                type="text"
-                name="url"
-                placeholder="Enter url"
-                id="url"
-                class="w-4/5 px-5 py-4 bg-[#2f2f2f] rounded-xl text-white"
-              />
-              <input
-                type="submit"
-                name="submit"
-                value="Run"
-                id="get"
-                class="w-1/6 px-5 py-4 bg-[#2f2f2f] rounded-xl text-[#fff] ml-5"
-              />
-            </form>
           </div>
-        </div>
-      </main>
-      <footer>
-        <div class="text-center text-white bg-[#2f2f2f]">
-          <p>
-            Copyrights © 2022 |<a
-              href="https://www.facebook.com/vixbol/"
-              target="_blank"
-              >Vixbol</a
-            >
-          </p>
-        </div>
-      </footer>
+        </main>
+        <footer>
+          <div class="text-center">
+            <p>
+              Copyrights © 2022 |
+              <a href="https://www.facebook.com/vixbol/" target="_blank">
+                Vixbol</a
+              >
+            </p>
+          </div>
+        </footer>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
